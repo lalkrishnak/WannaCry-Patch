@@ -1,5 +1,5 @@
 # WannaCry-Patch
-Wannacry Ransomewhere Protect Script for Windows
+## Wannacry Ransomewhere Protect Script for Windows
 
 WANNACRY: THE LARGEST RANSOMWARE OUTBREAK IN HISTORY
 
@@ -7,6 +7,6 @@ A Crypto-ransomoware called WannaCry has struck around the world, rendering infe
 
 This playbook will help u far away from wannacry.
 
-# How to Use
+## How to Use
 
 ansible-playbook wannacry-patch.yaml
