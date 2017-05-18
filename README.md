@@ -5,9 +5,7 @@ WANNACRY: THE LARGEST RANSOMWARE OUTBREAK IN HISTORY
 
 A Crypto-ransomoware called WannaCry has struck around the world, rendering infected users unable to use their machines unless they pay a ransom of up to $300 in Bitcoin.
 
-Learn more about WannaCry 
-
-Learn more about ransomware
+This playbook will help u far away from wannacry.
 
 # How to Use
 
