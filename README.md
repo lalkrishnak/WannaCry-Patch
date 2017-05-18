@@ -1,5 +1,5 @@
 # WannaCry-Patch
-## Wannacry Ransomewhere Protect Script for Windows
+## Wannacry Ransomewhere Protect Playbook for Windows
 
 WANNACRY: THE LARGEST RANSOMWARE OUTBREAK IN HISTORY
 
