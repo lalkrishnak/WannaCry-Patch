@@ -1,1 +1,23 @@
-
+ ---
+- name: WannaCry Patch Playbook
+  hosts: windows
+  gather_facts: yes
+  tasks:
+    - name: Query the Hotfix DB with KB id
+      raw: Get-HotFix -ComputerName localhost | Select-Object -property "HotFixID"
+      ignore_errors: yes
+      register: result
+      until: result.stdout.find("{{item}}") != -1
+      retries: 80
+      delay: 15
+      with_lines: cat kblist
+   – block:
+     – name: Install Security Hotfix
+       win_updates:
+         category_names: SecurityUpdates
+         state: installed
+       register: update_result
+     – name: Reboot, if needed.
+       win_reboot:
+       when: update_result.reboot_required
+     result.stdout.find("{{item}}") != -1
