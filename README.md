@@ -10,3 +10,7 @@ This playbook will help u far away from wannacry.
 ## How to Use
 
 ansible-playbook wannacry-patch.yaml
+
+## Warranty
+
+The code is provided 'as is,' with all possible faults, defects or errors, and without warranty of any kind.
