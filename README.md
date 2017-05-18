@@ -8,3 +8,7 @@ A Crypto-ransomoware called WannaCry has struck around the world, rendering infe
 Learn more about WannaCry 
 
 Learn more about ransomware
+
+# How to Use
+
+ansible-playbook wannacry-patch.yaml
