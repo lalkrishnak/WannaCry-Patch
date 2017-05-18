@@ -1,5 +1,5 @@
  ---
-- name: WannaCry Patch Playbook
+- name: WannaCry Patching Playbook
   hosts: windows
   gather_facts: yes
   tasks:
